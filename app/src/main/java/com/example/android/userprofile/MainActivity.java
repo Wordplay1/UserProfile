@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.mabda.myapplication.R;
+
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
         TextView birthday = findViewById(R.id.birthday);
         TextView country = findViewById(R.id.country);
+
+        birthday.setText("100,009 years!");
+        country.setText("Planet Earth");
 
         ImageView imageView = findViewById(R.id.profile_picture);
         imageView.setImageResource(R.drawable.desktop);
