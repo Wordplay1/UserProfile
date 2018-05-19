@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UserProfile</string>
+    <string name="imageCred">"via @rawPixel"</string>
 </resources>

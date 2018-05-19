@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.mabda.myapplication.R;
+
 
 import org.w3c.dom.Text;
 
